@@ -1,20 +1,21 @@
 # Beschreibung
-Ein Unity-Projekt mit dem das Browserspiel "Rettet die Spielebücher" erstellt wurde. 
+"Rettet die Spielebücher - Robo gegen die Papierfresser" ist browserbasiertes Spiel, das mit Unity erstellt wurde. 
 Das Spiel wurde für das Projekt museum4punkt0 erstellt. 
 
-unity project with which the browsergame "Rettet die Spielebücher" is build. 
-made with unity 2019.1.0f2
-The game is part of the project museum4punkt0
+"Rettet die Spielebücher - Robo gegen die Papierfresser is a browserbased game that is built with Unity. 
+The game was developed during the project museum4punkt0.
 
 # 1. Name
-Rettet die Spielebücher
+Rettet die Spielebücher - Robo gegen die Papierfresser
 
 # 2. Kurzbeschreibung
-Ein Unity-Projekt mit dem das Browserspiel "Rettet die Spielebücher" erstellt wurde. 
+"Rettet die Spielebücher - Robo gegen die Papierfresser" ist browserbasiertes Spiel, das mit Unity erstellt wurde. 
 Das Spiel wurde für das Projekt museum4punkt0 erstellt. 
 
-unity project with which the browsergame "Rettet die Spielebücher" is build. 
-made with unity 2019.1.0f2
+"Rettet die Spielebücher - Robo gegen die Papierfresser is a browserbased game that is built with Unity. 
+The game was developed during the project museum4punkt0.
+
+
 The game is part of the project museum4punkt0
 
 # 3. Entstehungskontext
@@ -32,8 +33,8 @@ of the Federal Republic of Germany).
 
 
 # 5. Installation
-Diese Respository enthält lediglich den Code der für das Projekt "Rettet die Spielebücher" geschrieben wurde.
-Um den Code innerhalb von Unity zu starten Bedarf es weiterer Konfiguration.
+Das Spiel wurd mit unity 2019.1.0f2 erstelt. Dieses Respository enthält lediglich den Code der für das Projekt "Rettet die Spielebücher" geschrieben wurde.
+Um den Code innerhalb von Unity zu starten Bedarf es weiterer Konfigurationen.
 Es empfiehlt sich die Installation der Plugins aus dem Assetstore:
 
 1. Airy UI: https://assetstore.unity.com/packages/tools/gui/airy-ui-easy-ui-animation-135898
@@ -46,9 +47,15 @@ Es empfiehlt sich die Installation der Plugins aus dem Assetstore:
 Dieser Code kann nicht ohne weiteres in ein funktionierendes Spiel übersetzt werden. Ein Großteil der Konfiguration muss innerhalb von Unity vorgenommen werden.
 
 # 7. Credits
-Auftraggeber*in/Rechteinhaber*in: www.museum4punkt0.de/en/, 2019
+Auftraggeber*in/Rechteinhaber*in: museum4punkt0
+Entwickler: Jens Blank, STUDIO JESTER BLANK
+High-end Digitalisierung und Fotografie von musealen Exponaten
+
 
 # Lizenz / License
+
+Copyright © 2019, museum4punkt0 
+
 Dieser Code unterliegt der GPL (https://www.gnu.org/licenses/gpl-3.0.en.html) 
 
 Der Code enthält wiederverwendete Programmteile Dritter. Diese sind im Code markiert und auskommentiert. 
