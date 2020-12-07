@@ -47,7 +47,7 @@ Es empfiehlt sich die Installation der Plugins aus dem Assetstore:
 Dieser Code kann nicht ohne weiteres in ein funktionierendes Spiel übersetzt werden. Ein Großteil der Konfiguration muss innerhalb von Unity vorgenommen werden.
 
 # 7. Credits
-Auftraggeber*in/Rechteinhaber*in: museum4punkt0
+Auftraggeber/Rechteinhaber: museum4punkt0
 Entwickler: Jens Blank, STUDIO JESTER BLANK
 High-end Digitalisierung und Fotografie von musealen Exponaten
 
@@ -56,7 +56,7 @@ High-end Digitalisierung und Fotografie von musealen Exponaten
 
 Copyright © 2019, museum4punkt0 
 
-Dieser Code unterliegt der GPL (https://www.gnu.org/licenses/gpl-3.0.en.html) 
+Dieser Code unterliegt der GPL. Näheres siehe https://github.com/museum4punkt0/Rettet-die-Spielebuecher/blob/main/LICENSE  
 
 Der Code enthält wiederverwendete Programmteile Dritter. Diese sind im Code markiert und auskommentiert. 
 Um den Code zu starten, müssen die Kommentare an den entsprechenden Stellen entfernt werden.
