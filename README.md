@@ -1,6 +1,6 @@
 # Beschreibung
 "Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein browserbasiertes Spiel, das mit Unity erstellt wurde. 
-Das Spiel wurde für das Projekt museum4punkt0 erstellt. 
+Das Spiel wurde für das Projekt museum4punkt0 erstellt. Das Browsergame vermittelt Kindern von sechs bis zehn Jahren anhand einfacher interaktiver Rätsel die materiellen Besonderheiten historischer Bewegungs- und Spielbilderbücher aus dem Bestand der Staatsbibliothek zu Berlin. 
 
 "Rettet die Spielebücher - Robo gegen die Papierfresser is a browserbased game that is built with Unity. 
 The game was developed during the project museum4punkt0.
