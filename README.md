@@ -1,5 +1,5 @@
 # Beschreibung
-"Rettet die Spielebücher - Robo gegen die Papierfresser" ist browserbasiertes Spiel, das mit Unity erstellt wurde. 
+"Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein browserbasiertes Spiel, das mit Unity erstellt wurde. 
 Das Spiel wurde für das Projekt museum4punkt0 erstellt. 
 
 "Rettet die Spielebücher - Robo gegen die Papierfresser is a browserbased game that is built with Unity. 
