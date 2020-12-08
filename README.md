@@ -6,7 +6,7 @@
 - [Kurzbeschreibung](#Kurzbeschreibung)
 - [Entstehungskontext](#Entstehungskontext)
 - [Förderung](#Förderung)
-- [Installation und Benutzung](#Installation%20und%20Benutzung)
+- [Installation und Benutzung](#Installation-und-Benutzung)
 - [Benutzung](#Benutzung)
 - [Credits](#Credits)
 - [Lizenz](#Lizenz)
