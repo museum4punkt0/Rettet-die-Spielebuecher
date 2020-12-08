@@ -2,7 +2,7 @@
 
 ### Inhaltsverzeichnis
 
-- [1. Beschreibung](#1. Beschreibung)
+- [Beschreibung](#Beschreibung)
 - [
 
 
