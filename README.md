@@ -33,9 +33,8 @@ of the Federal Republic of Germany).
 
 
 # 5. Installation
-Das Spiel wurd mit unity 2019.1.0f2 erstelt. Dieses Respository enthält lediglich den Code der für das Projekt "Rettet die Spielebücher" geschrieben wurde.
-Um den Code innerhalb von Unity zu starten Bedarf es weiterer Konfigurationen.
-Es empfiehlt sich die Installation der Plugins aus dem Assetstore:
+Das Spiel Rettet die Spielebücher wurde mit unity 2019.1.0f2 erstellt und dieses Respository enthält den Code, der beim Export des Spiels als unity WebGL build (HTML5/Javascript) erzeugt wurde. Das Spiel ist in dieser Form in einem HTML5-fähigen Browser online lauffähig (siehe hier: https://www.museum4punkt0.de/browsergame/). Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt und auf einen Web-Server hochgeladen werden.
+Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Komponenten aufsetzen. Die dafür benötigten Dateien können bei museum4punkt0 unter Silke Krohn angefragt werden.  Um den Code innerhalb von Unity zu starten Bedarf es weiterer Konfigurationen. Es empfiehlt sich die Installation folgender Plugins aus dem Assetstore:
 
 1. Airy UI: https://assetstore.unity.com/packages/tools/gui/airy-ui-easy-ui-animation-135898
 
