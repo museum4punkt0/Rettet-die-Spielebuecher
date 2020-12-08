@@ -38,9 +38,8 @@ Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Kompone
 3. Tween: https://assetstore.unity.com/packages/tools/animation/tween-55983
 
 # Credits
-Auftraggeber/Rechteinhaber: museum4punkt0
+Auftraggeber/Rechteinhaber: museum4punkt0 </br>
 Entwickler: Jens Blank, STUDIO JESTER BLANK
-High-end Digitalisierung und Fotografie von musealen Exponaten
 
 
 # Lizenz
