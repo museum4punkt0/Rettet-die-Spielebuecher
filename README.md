@@ -19,7 +19,7 @@ Das Spiel wurde mit Unity als WebGL Projekt erstellt und kann online in einem Br
 
 # Kurzbeschreibung
 "Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein browserbasiertes Spiel, das mit Unity im Rahmen des Projekts museum4punkt0 erstellt wurde. </br></br>
-![Titelblatt](https://github.com/museum4punkt0/images/blob/main/Titelblatt_Papierfresser_Sprechblase_bunt.jpg)
+[![Titelblatt](https://github.com/museum4punkt0/images/blob/main/Titelblatt_Papierfresser_Sprechblase_bunt.jpg)](https://www.museum4punkt0.de/browsergame/)
 
 # Entstehungskontext
 Dieses Spiel ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft.
