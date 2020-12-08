@@ -33,7 +33,7 @@ of the Federal Republic of Germany).
 
 
 # 5. Installation
-Das Spiel Rettet die Spielebücher wurde mit unity 2019.1.0f2 erstellt. Dieses Respository enthält den Code, der beim Export des Spiels als unity WebGL build erzeugt wurde. Das Spiel ist in dieser Form in einem HTML5-fähigen Browser online lauffähig (siehe hier: https://www.museum4punkt0.de/browsergame/). Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt und auf einen Web-Server hochgeladen werden. </br>
+Das Spiel "Rettet die Spielebücher - Robo gegen die Papierfresser" wurde mit unity 2019.1.0f2 erstellt. Dieses Respository enthält den Code, der beim Export des Spiels als unity WebGL build erzeugt wurde. Das Spiel ist in dieser Form in einem HTML5-fähigen Browser online lauffähig (siehe hier: https://www.museum4punkt0.de/browsergame/). Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt und auf einen Web-Server hochgeladen werden. </br>
 Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Komponenten aufsetzen. Die dafür benötigten Dateien können angefragt werden bei museum4punkt0 /  [Andreas Richter](mailto:a.richter@smb.spk-berlin.de?subject=[GitHub]%20Rettet-die-Spielebuecher) angefragt werden.  Um den Code innerhalb von Unity zu starten bedarf es weiterer Konfigurationen. Es empfiehlt sich die Installation folgender Plugins aus dem unity AssetStore:
 
 1. Airy UI: https://assetstore.unity.com/packages/tools/gui/airy-ui-easy-ui-animation-135898
@@ -53,7 +53,7 @@ High-end Digitalisierung und Fotografie von musealen Exponaten
 
 # Lizenz / License
 
-Copyright © 2019, museum4punkt0 
+Copyright © 2019, museum4punkt0 / Jens Blank, STUDIO JESTER BLANK
 
 Dieser Code unterliegt der GPL. Näheres siehe https://github.com/museum4punkt0/Rettet-die-Spielebuecher/blob/main/LICENSE  
 
