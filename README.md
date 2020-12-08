@@ -6,7 +6,10 @@
 - [Kurzbeschreibung](#Kurzbeschreibung)
 - [Entstehungskontext](#Entstehungskontext)
 - [Förderung](#Förderung)
-- [Installation(#Installation)
+- [Installation und Benutzung](#Installation und Benutzung)
+- [Benutzung](#Benutzung)
+- [Credits](#Credits)
+- [Lizenz](#Lizenz)
 
 
 # Beschreibung
@@ -24,9 +27,9 @@ Weitere Informationen: www.museum4punkt0.de
 Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für
 Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages.
 
-# Installation
+# Installation und Benutzung
 Das Spiel "Rettet die Spielebücher - Robo gegen die Papierfresser" wurde mit unity 2019.1.0f2 erstellt. Dieses Respository enthält den Code, der beim Export des Spiels als unity WebGL build erzeugt wurde. Das Spiel ist in dieser Form in einem HTML5-fähigen Browser online lauffähig (siehe hier: https://www.museum4punkt0.de/browsergame/). Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt und auf einen Web-Server hochgeladen werden. </br>
-Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Komponenten aufsetzen. Die dafür benötigten Dateien können angefragt werden bei museum4punkt0 /  [Andreas Richter](mailto:a.richter@smb.spk-berlin.de?subject=[GitHub]%20Rettet-die-Spielebuecher) angefragt werden.  Um den Code innerhalb von Unity zu starten bedarf es weiterer Konfigurationen. Es empfiehlt sich die Installation folgender Plugins aus dem unity AssetStore:
+Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Komponenten aufsetzen. Die dafür benötigten Dateien können angefragt werden bei: museum4punkt0 /  [Andreas Richter](mailto:a.richter@smb.spk-berlin.de?subject=[GitHub]%20Rettet-die-Spielebuecher).  Um den Code innerhalb von Unity zu starten bedarf es weiterer Konfigurationen, die innerhalb von unity vorgenommen werden müssen. Es empfiehlt sich die Installation folgender Plugins aus dem unity AssetStore:
 
 1. Airy UI: https://assetstore.unity.com/packages/tools/gui/airy-ui-easy-ui-animation-135898
 
@@ -34,16 +37,13 @@ Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Kompone
 
 3. Tween: https://assetstore.unity.com/packages/tools/animation/tween-55983
 
-# Benutzung
-Dieser Code kann nicht ohne weiteres in ein funktionierendes Spiel übersetzt werden. Ein Großteil der Konfiguration muss innerhalb von Unity vorgenommen werden.
-
 # Credits
 Auftraggeber/Rechteinhaber: museum4punkt0
 Entwickler: Jens Blank, STUDIO JESTER BLANK
 High-end Digitalisierung und Fotografie von musealen Exponaten
 
 
-# Lizenz / License
+# Lizenz
 
 Copyright © 2019, museum4punkt0 / Jens Blank, STUDIO JESTER BLANK
 
