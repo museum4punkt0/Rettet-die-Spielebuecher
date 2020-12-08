@@ -16,7 +16,7 @@
 "Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein Prototyp, der Kindern von sechs bis zehn Jahren anhand einfacher interaktiver Rätsel die materiellen Besonderheiten historischer Bewegungs- und Spielbilderbücher aus dem Bestand der Staatsbibliothek zu Berlin vermittelt. In insgesamt drei Leveln mit steigendem Schwierigkeitsgrad stehen die Kinder vor der Aufgabe, im Labyrinth eines Aufstellbuchs – der kulissenhafte „Stadtpark“ von Lothar Meggendorfer aus dem Jahr 1887 – verlorengegangene Teile aus verschiedenen Spielebüchern einzusammeln, die Bücher damit zu reparieren und schließlich die Papierfresser zu vertreiben. Das Spiel wurde mit Unity als WebGL Projekt erstellt und kann online in einem Browser ausgeführt werden. Die Entwicklung des Spiel wurde beauftragt von museum4punkt0 - Teilprojekt Zentrale wissenschaftliche Projektsteuerung. Die gestalterische sowie die inhaltliche Konzeption wurde in Zusammenarbeit mit Kindern von 6-12 Jahren erarbeitet. Mehr Informationen dazu  [hier.](https://www.museum4punkt0.de/ein-browsergame-entsteht-kinder-als-expertinnen-jury-einbinden/)
 
 # Kurzbeschreibung
-"Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein browserbasiertes Spiel, das mit Unity im Rahmen des Projekts museum4punkt0 erstellt wurde. 
+"Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein browserbasiertes Spiel, das mit Unity im Rahmen des Projekts museum4punkt0 erstellt wurde. </br>
 ![RoboImLabyrinth](https://www.museum4punkt0.de/wp-content/uploads/2019/10/Z_Bewegungsbuch_InGameGrafik_ds100-768x432.jpg)
 
 # Entstehungskontext
