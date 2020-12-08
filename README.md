@@ -27,7 +27,8 @@ Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregier
 Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages.
 
 # Installation und Benutzung
-Das Spiel "Rettet die Spielebücher - Robo gegen die Papierfresser" wurde mit unity 2019.1.0f2 erstellt. Dieses Respository enthält den Code, der beim Export des Spiels als unity WebGL build erzeugt wurde. Das Spiel ist in dieser Form in einem HTML5-fähigen Browser online lauffähig (siehe hier: https://www.museum4punkt0.de/browsergame/). Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt und auf einen Web-Server hochgeladen werden. </br>
+Das Spiel "Rettet die Spielebücher - Robo gegen die Papierfresser" wurde mit unity 2019.1.0f2 erstellt.</br>
+Das hier veröffentlichte Respository enthält den Code des unity-Projekts, der beim Export des Spiels als unity WebGL-Target erzeugt wurde.In dieser Form ist das Spiel in einem  Browser online lauffähig. Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt,  auf einen Web-Server hochgeladen und in eine Website eingebettet werden. Durch Aufruf der URL startet der unity WebGL-Player (siehe [hier](#https://www.museum4punkt0.de/browsergame/)  </br></br>
 Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Komponenten aufsetzen. Die dafür benötigten Dateien können angefragt werden bei: [museum4punkt0](mailto:m4p0.z@smb.spk-berlin.de?subject=[GitHub]%20Rettet-die-Spielebuecher) /  [Andreas Richter](mailto:a.richter@smb.spk-berlin.de?subject=[GitHub]%20Rettet-die-Spielebuecher).  Um den Code innerhalb von Unity zu starten bedarf es weiterer Konfigurationen, die innerhalb von unity vorgenommen werden müssen. Es empfiehlt sich die Installation folgender Plugins aus dem unity AssetStore:
 
 1. Airy UI: https://assetstore.unity.com/packages/tools/gui/airy-ui-easy-ui-animation-135898
