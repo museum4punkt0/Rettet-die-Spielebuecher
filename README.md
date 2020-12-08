@@ -3,27 +3,28 @@
 ### Inhaltsverzeichnis
 
 - [Beschreibung](#Beschreibung)
-- [
+- [Kurzbeschreibung](#Kurzbeschreibung)
+- [Entstehungskontext](#Entstehungskontext)
+- [Förderung](#Förderung)
+- [Installation(#Installation)
 
 
+# Beschreibung
+"Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein Prototyp, der Kindern von sechs bis zehn Jahren anhand einfacher interaktiver Rätsel die materiellen Besonderheiten historischer Bewegungs- und Spielbilderbücher aus dem Bestand der Staatsbibliothek zu Berlin vermittelt. Das Spiel wurde mit Unity als WebGL Projekt erstellt und kann online in einem Browser ausgeführt werden. Das Spiel ist entstanden im Rahmen des Projekts museum4punkt0 - Teilprojekt Zentrale wissenschaftliche Projektsteuerung. Die gestalterische sowie die inhaltliche Konzeption des Spiels wurde in Zusammenarbeit mit Kindern entwickelt. Mehr dazu siehe [hier.](https://www.museum4punkt0.de/ein-browsergame-entsteht-kinder-als-expertinnen-jury-einbinden/)
 
-# 1. Beschreibung
-"Rettet die Spielebücher - Robo gegen die Papierfresser" ist ein browserbasiertes Spiel, das mit Unity erstellt wurde. 
-Das Spiel wurde für das Projekt museum4punkt0 entwickelt. Das Browsergame vermittelt Kindern von sechs bis zehn Jahren anhand einfacher interaktiver Rätsel die materiellen Besonderheiten historischer Bewegungs- und Spielbilderbücher aus dem Bestand der Staatsbibliothek zu Berlin. 
-
-# 2. Kurzbeschreibung
+# Kurzbeschreibung
 "Rettet die Spielebücher - Robo gegen die Papierfresser" ist browserbasiertes Spiel, das mit Unity erstellt wurde. 
 Das Spiel wurde für das Projekt museum4punkt0 erstellt. 
 
-# 3. Entstehungskontext
+# Entstehungskontext
 Dieses Spiel ist entstanden im Verbundprojekt museum4punkt0 – Digitale Strategien für das Museum der Zukunft.
 Weitere Informationen: www.museum4punkt0.de
 
-# 4. Förderung
+# Förderung
 Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für
 Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages.
 
-# 5. Installation
+# Installation
 Das Spiel "Rettet die Spielebücher - Robo gegen die Papierfresser" wurde mit unity 2019.1.0f2 erstellt. Dieses Respository enthält den Code, der beim Export des Spiels als unity WebGL build erzeugt wurde. Das Spiel ist in dieser Form in einem HTML5-fähigen Browser online lauffähig (siehe hier: https://www.museum4punkt0.de/browsergame/). Dazu müssen die in diesem Repositorium abgelegten Dateien nach dem Herunterladen entzippt und auf einen Web-Server hochgeladen werden. </br>
 Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Komponenten aufsetzen. Die dafür benötigten Dateien können angefragt werden bei museum4punkt0 /  [Andreas Richter](mailto:a.richter@smb.spk-berlin.de?subject=[GitHub]%20Rettet-die-Spielebuecher) angefragt werden.  Um den Code innerhalb von Unity zu starten bedarf es weiterer Konfigurationen. Es empfiehlt sich die Installation folgender Plugins aus dem unity AssetStore:
 
@@ -33,10 +34,10 @@ Eine Weiterentwicklung des Spiels muss auf dem Quellcode mit allen Unity-Kompone
 
 3. Tween: https://assetstore.unity.com/packages/tools/animation/tween-55983
 
-# 6. Benutzung
+# Benutzung
 Dieser Code kann nicht ohne weiteres in ein funktionierendes Spiel übersetzt werden. Ein Großteil der Konfiguration muss innerhalb von Unity vorgenommen werden.
 
-# 7. Credits
+# Credits
 Auftraggeber/Rechteinhaber: museum4punkt0
 Entwickler: Jens Blank, STUDIO JESTER BLANK
 High-end Digitalisierung und Fotografie von musealen Exponaten
