@@ -7,7 +7,6 @@
 - [Entstehungskontext](#Entstehungskontext)
 - [Förderung](#Förderung)
 - [Installation und Benutzung](#Installation-und-Benutzung)
-- [Benutzung](#Benutzung)
 - [Credits](#Credits)
 - [Lizenz](#Lizenz)
 
