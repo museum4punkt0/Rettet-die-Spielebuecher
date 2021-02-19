@@ -48,7 +48,7 @@ Entwickler: Jens Blank, STUDIO JESTER BLANK
 
 Copyright © 2019, museum4punkt0 / Jens Blank, STUDIO JESTER BLANK
 
-Dieser Code unterliegt der GPL. Näheres siehe [hier](#https://github.com/museum4punkt0/Rettet-die-Spielebuecher/blob/main/LICENSE)  
+Dieser Code unterliegt der GPL. Näheres siehe [hier](https://github.com/museum4punkt0/Rettet-die-Spielebuecher/blob/main/LICENSE)  
 
 Der Code enthält wiederverwendete Programmteile Dritter. Diese sind im Code markiert und auskommentiert. 
 Um den Code zu starten, müssen die Kommentare an den entsprechenden Stellen entfernt werden.
