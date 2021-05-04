@@ -27,6 +27,7 @@ Weitere Informationen: www.museum4punkt0.de
 # Förderung
 Das Projekt museum4punkt0 wird gefördert durch die Beauftragte der Bundesregierung für
 Kultur und Medien aufgrund eines Beschlusses des Deutschen Bundestages.
+![BKM-Logo](https://github.com/museum4punkt0/images/blob/2c46af6cb625a2560f39b01ecb8c4c360733811c/BKM_Fz_2017_Web_de.gif)
 
 # Installation und Benutzung
 Das Spiel "Rettet die Spielebücher - Robo gegen die Papierfresser" wurde mit unity 2019.1.0f2 erstellt.</br>
