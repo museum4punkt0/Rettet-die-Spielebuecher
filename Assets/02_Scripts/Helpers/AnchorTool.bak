@@ -1,0 +1,130 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEditor;
+// using UnityEngine.AI;
+using Pathfinding;
+
+/*
+<summary>
+Click on a grid cell, calc path (A*) and move there when reachable
+</summary>
+ */
+public class AnchorTool : MonoBehaviour
+{
+  [Tooltip("Set this to the same as gridfactor on player")]
+  public int gridfactor;
+  public GameObject helper;
+  // public NavMeshAgent player;
+
+  public GameObject seekerGo;
+  // public Collider seekerCol;
+  // public Transform targetPosition;
+
+  public Path path;
+
+  public float speed = 2;
+
+  public float nextWaypointDistance = 3;
+
+  private int currentWaypoint = 0;
+
+  public bool reachedEndOfPath;
+
+
+
+  public LayerMask collisionLayer;
+  public LayerMask collectLayer;
+  public LayerMask enemyLayer;
+
+
+
+
+  private Vector2 formerGridCenter;
+
+  
+      // bool hitButMove = false;
+      //   // next is book
+      //   if (hit.collider!=null && hit.collider.gameObject.name.ToLower().Contains("book")) {
+      //     MasterAdventure.self.characterHitBook();
+      //     return;
+      //   } 
+      //   // next is a collectible item
+      //   if (hit.collider!=null && hit.collider.gameObject.layer == MiscHelper.LayermaskToLayerInt(collectLayer)) {
+      //     MasterAdventure.self.characterCollectItem(hit.collider.gameObject);
+      //     hitButMove = true;
+      //   } 
+      //    // next is an enemi
+      //   if (hit.collider!=null && hit.collider.gameObject.layer == MiscHelper.LayermaskToLayerInt(enemyLayer) ) {
+      //     MasterAdventure.self.characterHitEnemy(hit.collider.gameObject);
+      //     return;
+      //   } 
+
+
+  /* map to center of the grid */
+  public Vector3 MapFloorPointToGridCenter(Vector3 floorpoint) {
+
+     // Debug.DrawLine(transform.position, ac, Color.red, 1f);
+     /*map ac to "grid"*/
+     float size = transform.localScale.x;
+     // float nulledx = ac.x + size/2; // range 0 - size
+     int mapx = Mathf.FloorToInt((floorpoint.x + size/2)/ (size/gridfactor))  ; // map to 0 to gridfactor -1 
+     int mapy = Mathf.FloorToInt((floorpoint.z + size/2)/ (size/gridfactor))  ; // map to 0 to gridfactor -1 
+     // Debug.Log(mapx + "," + mapy);
+
+     float posX = -(size/2) + ( mapx * (size/gridfactor) ) + (size/(gridfactor*2));
+     float posZ = -(size/2) + ( mapy * (size/gridfactor) ) + (size/(gridfactor*2));
+
+     // player.destination = 
+     Vector3 nodeCenter = new Vector3(posX,seekerGo.transform.position.y,posZ);
+     // helper.transform.position = nodeCenter;
+     return nodeCenter;
+   }
+
+  /* this is called from editor */
+   public void CheckForPositions(Vector2 v2)
+   {
+      // Debug.Log("THIS IS A FUCKING GOOD SOLUTION FOR NOT CLICKING PLAY " + v2);
+     Seeker seeker = seekerGo.GetComponent<Seeker>();
+
+     Ray ray = SceneView.currentDrawingSceneView.camera.ScreenPointToRay(v2);
+     Vector3 v3w = SceneView.currentDrawingSceneView.camera.ScreenToWorldPoint(new Vector3(v2.x, 0f, v2.y)); 
+     RaycastHit hit = new RaycastHit();
+     if (Physics.Raycast(ray, out hit, 1000.0f)) {
+       Vector3 destW = MapFloorPointToGridCenter(hit.point);
+       /* flip z ??*/
+       Vector3 dest = new Vector3(destW.x,destW.y,-destW.z);
+       seeker.StartPath(seekerGo.transform.position, dest, OnPathComplete);
+     }
+   }
+
+
+
+   public void Update () {
+    if (path == null) {
+            // We have no path to follow yet, so don't do anything
+      return;
+    }
+    if (!reachedEndOfPath) {
+
+     if (currentWaypoint + 1 < path.vectorPath.Count) {
+      Vector3 a = MapFloorPointToGridCenter(path.vectorPath[currentWaypoint]);;
+          // Debug.Log(a);
+      seekerGo.transform.position = a;
+      currentWaypoint++;
+    } else {
+      reachedEndOfPath = true;
+    }
+  }
+
+
+
+}
+
+public void OnPathComplete (Path p) {
+  path = p;
+    // Reset the waypoint counter so that we start to move towards the first point in the path
+  currentWaypoint = 0;
+  reachedEndOfPath = false;
+}
+}

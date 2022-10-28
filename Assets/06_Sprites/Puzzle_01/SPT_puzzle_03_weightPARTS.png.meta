@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 73eacf308e3cb4648b124c2d241feb90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2292184626259060650
+    second: SPT_puzzle_03_weightPARTS_0
+  - first:
+      213: 2547909275299400578
+    second: SPT_puzzle_03_weightPARTS_1
+  - first:
+      213: 7222167419536774995
+    second: SPT_puzzle_03_weightPARTS_2
+  - first:
+      213: 348811867317771124
+    second: SPT_puzzle_03_weightPARTS_3
+  - first:
+      213: -6027608165065702555
+    second: SPT_puzzle_03_weightPARTS_4
+  - first:
+      213: -7635022812881603739
+    second: SPT_puzzle_03_weightPARTS_5
+  - first:
+      213: 6965382578558081298
+    second: SPT_puzzle_03_weightPARTS_6
+  - first:
+      213: 7066613931101057318
+    second: SPT_puzzle_03_weightPARTS_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPT_puzzle_03_weightPARTS_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1699
+        width: 881
+        height: 221
+      alignment: 9
+      pivot: {x: 0.9479301, y: 0.49104634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4294947495f19f1449b5fa6055b33f1e
+      internalID: -2292184626259060650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_puzzle_03_weightPARTS_1
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 26
+        width: 687
+        height: 1920
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5331d67602e424bbdc816fd69c6ec5
+      internalID: 2547909275299400578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_puzzle_03_weightPARTS_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1371
+        width: 887
+        height: 252
+      alignment: 9
+      pivot: {x: 0.050276488, y: 0.46732002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267221f24e2e8d3469c1cfbc3872b2b6
+      internalID: 7222167419536774995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_puzzle_03_weightPARTS_4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 724
+        width: 532
+        height: 551
+      alignment: 9
+      pivot: {x: 0.4175696, y: 0.82631034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1231b75d3bcb74b9a99d69c5f84877
+      internalID: -6027608165065702555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_puzzle_03_weightPARTS_6
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 71
+        width: 529
+        height: 539
+      alignment: 9
+      pivot: {x: 0.4668407, y: 0.81323534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2add8034c35cf24bbf289d2c2c49a46
+      internalID: 6965382578558081298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 159d71f2ff4c0f345bd93ccd716d3bad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPT_puzzle_03_weightPARTS_4: -6027608165065702555
+      SPT_puzzle_03_weightPARTS_6: 6965382578558081298
+      SPT_puzzle_03_weightPARTS_0: -2292184626259060650
+      SPT_puzzle_03_weightPARTS_1: 2547909275299400578
+      SPT_puzzle_03_weightPARTS_2: 7222167419536774995
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

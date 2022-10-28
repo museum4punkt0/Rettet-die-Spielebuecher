@@ -1,0 +1,254 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+
+
+
+
+[RequireComponent(typeof(PlayerCharacterSelected))]
+public class MasterPuzzleManager : MonoBehaviour
+{
+    public string nameOfAdventure; // for going back button
+    public string nameOfAtionLevel; // for going forward to action part
+    // [Tooltip("Set the name of the GameObjects (from Adventure) required to solve the puzzle")]
+    // public string[] requiredItems;
+
+    [Tooltip("Gamelogic here, taking collectedNames from Adventure. For each of these we show an item (draggable puzzle piece)")]
+    public MapNamesToDraggables[] mapDraggables;
+
+    /* this is used to set up level logik*/
+    [System.Serializable]
+     public class MapNamesToDraggables
+     {
+        [Tooltip("Set here, whats required to solve the puzzle. The Names (NameFromAdv) must match the elements collected/collectable in adventure")]
+        public string NameFromAdv;
+        public GameObject Draggable;
+        [Tooltip("when user already placed this item / solved it, then position it here")]
+        public Vector3 solvedPosition; 
+        public bool isSolved;
+     }
+
+    /* 
+    * SELF STATE : INTERNAL RUNTIME STATE 
+    */
+    [SerializeField]
+    bool showStartupPlate = true;  // 
+    bool is_solved;
+    bool visited = true;
+    [SerializeField]
+    public List<string> puzzleParts = new List<string>();
+    [SerializeField]
+    public List<bool> puzzlePartsSolved = new List<bool>();
+    float timeSpend;
+    float startTime;
+
+    Charakter_State charakter_state;
+    Puzzle_State state; // this is the state of the PUZZLE / self
+    Adventure_State adv_state; // this is the state of Adventure
+
+
+
+    void retrieveState() {
+        Scene scene = SceneManager.GetActiveScene();
+        state = new Puzzle_State();  
+        string status = "";
+        if (MasterGameManager.master != null) {
+            status = MasterGameManager.master.getSceneState(scene.name);
+            // Debug.Log(status);
+        } 
+        // do we have/get a status
+        if (status != "") {
+            state = JsonUtility.FromJson<Puzzle_State>(status);
+        } 
+        else {
+            /* MOCK DATA FOR DEV 
+            DEBUG WITH THIS
+            DEBUG WITH THIS
+            DEBUG WITH THIS
+            DEBUG WITH THIS
+            DEBUG WITH THIS
+            */
+            Puzzle_State mockData = new Puzzle_State();
+            mockData.is_solved = false; // show success plate 
+            mockData.visited = true; // when false show "collect more " or/and help
+            mockData.timeSpend = 0f; // some stats
+            mockData.puzzleParts.Add("CollectMe");
+            mockData.puzzlePartsSolved.Add(false);
+           
+            state = mockData;
+            
+        }
+    }
+
+
+
+
+    /* write state to master */
+    void writeState(){
+        state.is_solved = is_solved;
+        state.visited = visited;
+        state.timeSpend = Time.time - startTime; // this is more for data 
+        state.puzzleParts = new List<string>(puzzleParts);;
+        state.puzzlePartsSolved = new List<bool>(puzzlePartsSolved);;
+        string status = JsonUtility.ToJson(state);
+        if (MasterGameManager.master != null) {
+            Scene scene = SceneManager.GetActiveScene();
+            MasterGameManager.master.saveSceneState(scene.name,status);
+        }
+    }
+
+     void Awake() {
+        // Messenger.AddListener("PUZZLE_SOLVED", puzzleSolved);
+        Messenger<string>.AddListener("PIN_AT_PLACE", pinAtPlace);
+        Messenger<string>.AddListener("PIN_AWAY_PLACE", pinAwayFromPlace);
+    }
+    void OnDestroy(){
+        // Messenger.RemoveListener("PUZZLE_SOLVED", puzzleSolved);
+        Messenger<string>.RemoveListener("PIN_AT_PLACE", pinAtPlace);
+        Messenger<string>.RemoveListener("PIN_AWAY_PLACE", pinAwayFromPlace);
+     }
+
+    void Start() {
+        startTime = Time.time;
+        retrieveState();
+        parseAdventureState();
+        // Debug.Log("State " + JsonUtility.ToJson(state));
+        /* save the current State to master, would be better to do on destroy */
+        puzzleParts = new List<string>(state.puzzleParts);
+        puzzlePartsSolved = new List<bool>(state.puzzlePartsSolved);
+
+        charakter_state = GameStates.Get_Charakter_State();
+        PlayerCharacterSelected pcs = GetComponent<PlayerCharacterSelected>();
+        if(charakter_state.characterID != null) {
+          // character = PlayerSettings.Robot;
+            pcs.characters[charakter_state.characterID].SetActive(true);
+         
+        } else {
+            pcs.characters[0].SetActive(true);
+          // character = 0;
+        }
+       
+        
+        /* walk through MapNamesToDraggables[] mapDraggables
+          * NameFromAdv;
+           Draggable;
+         */
+        bool foundNone = true;
+        foreach(MapNamesToDraggables it in mapDraggables){
+            if (adv_state.collectedNames.Contains(it.NameFromAdv)) {
+                foundNone = false;
+                it.Draggable.SetActive(true);
+                /* check to see if it is in "Solved Puzzle Parts" */
+                for (int i = 0; i < puzzleParts.Count; i++) {
+                    if (puzzleParts[i] == it.NameFromAdv && puzzlePartsSolved[i] == true) {
+                        it.Draggable.transform.localPosition = it.solvedPosition;
+                        it.isSolved = true;
+                    }
+                }
+            } else {
+                it.Draggable.SetActive(false);
+            }
+        }
+        // Debug.Log(               JsonUtility.ToJson(state)             );
+        // Debug.Log(state.puzzleParts.Count);
+        // Debug.Log(puzzleParts.Count);
+        // Debug.Log(state.puzzleParts.Count);
+        // Debug.Log(state.puzzleParts);
+        // Debug.Log(puzzleParts);
+        // Debug.Log(JsonHelper.ToJson(puzzleParts));
+        // Debug.Log(JsonUtility.ToJson(state.puzzleParts));
+        writeState();
+        StartCoroutine("CheckForSolved",1f);
+        // Debug.Log(foundNone);
+        // Debug.Log(visited);
+        /* going to */
+
+        if (foundNone || !visited) {
+            Messenger.Broadcast("FIRST_TIME_IN_PUZZLE");
+            visited = true;
+        }
+
+        
+    }
+
+    void pinAtPlace( string nameofPin) {
+        for (int i = 0; i < mapDraggables.Length; i++) {
+            if (mapDraggables[i].Draggable.name==nameofPin) {
+                puzzlePartsSolved[i] = true;
+            }
+        }
+        writeState();
+    }
+
+    void pinAwayFromPlace( string nameofPin) {
+        for (int i = 0; i < mapDraggables.Length; i++) {
+            if (mapDraggables[i].Draggable.name==nameofPin) {
+                puzzlePartsSolved[i] = false;
+            }
+        }
+          writeState();
+    }
+
+    /*this is obsolete, we check state now for "solved"*/
+     void puzzleSolved(){
+        is_solved = true;
+        writeState();
+     }
+
+
+
+    private IEnumerator CheckForSolved(float time) {
+        while (true) {
+            // Debug.Log("CheckForSolved " + puzzlePartsSolved.Count);
+            bool allSolved = false;
+            for (int i = 0; i < puzzlePartsSolved.Count; i++) {
+                // Debug.Log(puzzlePartsSolved[i]);
+               if (puzzlePartsSolved[i]==true) {
+                allSolved = true;
+               } else {
+                allSolved = false;
+                break;
+                }
+            }
+            is_solved = allSolved;
+            if (is_solved) {
+
+                Messenger.Broadcast("SHOW_NEXT");
+                Messenger.Broadcast("PUZZLE_SOLVED");
+            }
+            writeState();
+            yield return new WaitForSeconds(time);
+        }
+    }
+
+
+
+
+    /* 
+     * get and set Status of Adventure : adv_state 
+     */
+    void parseAdventureState(){
+        adv_state = new Adventure_State();    
+        string status = "";
+        if (MasterGameManager.master != null) {
+            status = MasterGameManager.master.getSceneState(nameOfAdventure);
+            if (status != "") {
+                adv_state = JsonUtility.FromJson<Adventure_State>(status);
+              
+            }
+        } else {
+            /* 
+             * provide some mock data for testing
+             */
+            Adventure_State mockdata = new Adventure_State(); 
+            mockdata.collectedIds = new List<int>();  // this refers to the Index (Order) of the items to collect, can not serialize gameobjects
+            mockdata.collectedNames = new List<string>(); // required in puzzle, better controll 
+            mockdata.collectedNames.Add("CollectMe");
+            // mockdata.collectedNames.Add("CollectMe2");
+            mockdata.playerPosition = Vector3.zero;
+            adv_state = mockdata;
+        }
+    }
+}

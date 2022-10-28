@@ -1,0 +1,84 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FogOfWarScript : MonoBehaviour
+{
+    public Transform player;
+    public LayerMask fogLayer;
+    public float radius = 5f;
+    private float radiusSqr {get {return radius*radius;}}
+
+    public bool FogOn;
+
+    public Color FogColor;
+
+    public Collider col;
+    private Mesh fogMesh;
+    private Vector3[] fogVertices;
+    private Color[] fogColors;
+    private float[] fogAlphas;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+      Init();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+      Vector3 vect = new Vector3(player.transform.position.x+10, player.transform.position.y+5, player.transform.position.z-10);
+      Vector3 vect2 = new Vector3(player.transform.position.x+10, player.transform.position.y-5, player.transform.position.z-10);
+      // Debug.DrawRay(vect2, vect-vect2);
+      Ray r = new Ray(vect2, vect-vect2);
+      RaycastHit hit;
+       if (col.Raycast(r, out hit, 1000.0f)){
+        for(int i = 0; i < fogVertices.Length; i++){
+          Vector3 v = transform.TransformPoint(fogVertices[i]);
+          float dist = Vector3.SqrMagnitude(v - hit.point);
+          if(dist < radiusSqr){
+            float alpha = Mathf.Min(fogColors[i].a, dist/radiusSqr);
+            fogColors[i].a = alpha;
+            fogAlphas[i] = alpha;
+          }
+        }
+        UpdateColor();
+      }
+    }
+
+    void Init(){
+      col = GetComponent<Collider>();
+      Color blank = Color.white;
+      blank.a = 0f;
+      fogMesh = GetComponent<MeshFilter>().mesh;
+      fogVertices = fogMesh.vertices;
+      fogColors = new Color[fogVertices.Length];
+        fogAlphas = new float[fogVertices.Length];
+
+      // if(PlayerSettings.FogAlphas != null)
+      //   fogAlphas = PlayerSettings.FogAlphas;
+      // else
+
+      for(int i=0; i < fogColors.Length; i++){
+        if(FogOn == true)
+          fogColors[i] = FogColor;
+        else
+          fogColors[i] = blank;
+
+        // if(PlayerSettings.FogAlphas != null)
+        //   fogColors[i].a = fogAlphas[i];
+        // else
+        fogAlphas[i] = fogColors[i].a;
+      }
+
+      UpdateColor();
+    }
+
+    
+    void UpdateColor(){
+      fogMesh.colors = fogColors;
+      PlayerSettings.FogAlphas = fogAlphas;
+    }
+
+}

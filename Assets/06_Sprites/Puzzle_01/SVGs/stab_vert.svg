@@ -1,0 +1,7 @@
+<svg width="9.0714mm" height="9.0714mm" version="1.1" viewBox="0 0 9.0714 9.0714" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(56.363 -269.83)">
+  <rect x="-64.679" y="-12.896" width="26.458" height="300" rx="10" ry="10" color="#000000" fill="#ff992a" stroke="#000" stroke-width=".26458"/>
+  <circle cx="-51.827" cy="-.04464" r="4.5357" fill="#00992a" fill-rule="evenodd" opacity=".922" style="paint-order:markers stroke fill"/>
+  <circle cx="-51.827" cy="274.37" r="4.5357" fill="#00992a" fill-rule="evenodd" opacity=".922" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>

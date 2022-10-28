@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: 7f20cf03a4a2d9948923c517605534b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 449057272645648641
+    second: SPT_wormsUI_0
+  - first:
+      213: -502128049759527019
+    second: SPT_wormsUI_1
+  - first:
+      213: -2886433941282987286
+    second: SPT_wormsUI_2
+  - first:
+      213: 1225989048471501197
+    second: SPT_wormsUI_3
+  - first:
+      213: -8426328526747374646
+    second: SPT_wormsUI_4
+  - first:
+      213: 5306291373708093413
+    second: SPT_wormsUI_5
+  - first:
+      213: 8313789895926121119
+    second: SPT_wormsUI_6
+  - first:
+      213: -2235154930815241104
+    second: SPT_wormsUI_7
+  - first:
+      213: 8180695858932677563
+    second: SPT_wormsUI_8
+  - first:
+      213: -6608647244947123672
+    second: SPT_wormsUI_9
+  - first:
+      213: 7011408339197940981
+    second: SPT_wormsUI_10
+  - first:
+      213: 931121720854248046
+    second: SPT_wormsUI_11
+  - first:
+      213: 6782801971203539617
+    second: SPT_wormsUI_12
+  - first:
+      213: 2459958710121049498
+    second: SPT_wormsUI_13
+  - first:
+      213: 792326990794464180
+    second: SPT_wormsUI_14
+  - first:
+      213: -8400076702754931744
+    second: SPT_wormsUI_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPT_wormsUI_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 565
+        width: 197
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d616515bce770c64bbf8a770291707b5
+      internalID: 449057272645648641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 545
+        width: 183
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e00724ce03d1d442a17a459304d01e0
+      internalID: -502128049759527019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_2
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 558
+        width: 162
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6923200c526af7648b3e67c5fd37870a
+      internalID: -2886433941282987286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_3
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 560
+        width: 191
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86988af1784f2cd4c87ff9134ba09072
+      internalID: 1225989048471501197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_4
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 549
+        width: 172
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31efefcf432157d4a949ccd5a01d5e1a
+      internalID: -8426328526747374646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_5
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 546
+        width: 183
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1461d7cc9ab8a45bad03d50283de6f
+      internalID: 5306291373708093413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_6
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 542
+        width: 111
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80239aa0f061794a848a28a1b9d9943
+      internalID: 8313789895926121119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_7
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 540
+        width: 149
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df75919a1ce0ac429cfd0719059dcc9
+      internalID: -2235154930815241104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 12
+        width: 151
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27174000f3ac8f41ab60004605ee934
+      internalID: 8180695858932677563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 9
+        width: 128
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e785d40cf0eaa0141ab45fc55ad8dd7d
+      internalID: -6608647244947123672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_10
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 14
+        width: 162
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c6c9a25269ea040b0dc6a01e31f610
+      internalID: 7011408339197940981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 24
+        width: 167
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75ef3b0df03f0f4c882f10e715c3394
+      internalID: 931121720854248046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_12
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 23
+        width: 184
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49f9994668076f409c9cce368a0c44e
+      internalID: 6782801971203539617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_13
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 29
+        width: 130
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832ce2b946c24fc4980cc314414d7328
+      internalID: 2459958710121049498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_14
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 33
+        width: 267
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce5d12a7d276a64ab7c8fb491f7a592
+      internalID: 792326990794464180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_wormsUI_15
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 26
+        width: 144
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72879035ad909649afcff3df68e46eb
+      internalID: -8400076702754931744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f10cf065b8aee8348a3435bf959b0c1a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPT_wormsUI_15: -8400076702754931744
+      SPT_wormsUI_12: 6782801971203539617
+      SPT_wormsUI_9: -6608647244947123672
+      SPT_wormsUI_10: 7011408339197940981
+      SPT_wormsUI_2: -2886433941282987286
+      SPT_wormsUI_13: 2459958710121049498
+      SPT_wormsUI_7: -2235154930815241104
+      SPT_wormsUI_1: -502128049759527019
+      SPT_wormsUI_14: 792326990794464180
+      SPT_wormsUI_5: 5306291373708093413
+      SPT_wormsUI_11: 931121720854248046
+      SPT_wormsUI_4: -8426328526747374646
+      SPT_wormsUI_0: 449057272645648641
+      SPT_wormsUI_3: 1225989048471501197
+      SPT_wormsUI_6: 8313789895926121119
+      SPT_wormsUI_8: 8180695858932677563
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

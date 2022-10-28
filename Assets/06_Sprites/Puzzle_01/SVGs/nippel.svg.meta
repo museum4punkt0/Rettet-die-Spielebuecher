@@ -1,0 +1,52 @@
+fileFormatVersion: 2
+guid: 9b062bb346ba04d66833142fdf0d1ea1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
+  svgType: 0
+  texturedSpriteMeshType: 0
+  svgPixelsPerUnit: 100
+  gradientResolution: 128
+  alignment: 9
+  customPivot: {x: 0.52251005, y: 0.49709356}
+  generatePhysicsShape: 0
+  preserveViewport: 0
+  advancedMode: 0
+  predefinedResolutionIndex: 1
+  targetResolution: 1080
+  resolutionMultiplier: 1
+  stepDistance: 10
+  samplingStepDistance: 100
+  maxCordDeviationEnabled: 0
+  maxCordDeviation: 1
+  maxTangentAngleEnabled: 0
+  maxTangentAngle: 5
+  keepTextureAspectRatio: 1
+  textureSize: 256
+  textureWidth: 256
+  textureHeight: 256
+  wrapMode: 0
+  filterMode: 1
+  sampleCount: 4
+  spriteData:
+    TessellationDetail: 0
+    SpriteRect:
+      name: nippelSprite
+      originalName: 
+      pivot: {x: 0.52251005, y: 0.49709356}
+      alignment: 9
+      border: {x: 0, y: 0, z: 0, w: 0}
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 288
+      spriteID: 0bccef2b00a4d8ad4998da124e3dfd53
+      internalID: 0
+    PhysicsOutlines: []

@@ -1,0 +1,43 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEditor;
+
+/*
+<summary>
+when we click in editor on a GO with script AnchorTool attached,
+the function CheckForPositions is called then
+</summary>
+ */
+[CustomEditor(typeof(AnchorTool))]
+class AnchorToolEditor : Editor {
+ void OnSceneGUI() 
+ {
+
+    /* 
+     * turn this of completly 
+     */
+    return;
+    
+    // get the chosen game object
+    AnchorTool t = target as AnchorTool;
+    if( t == null || !t.enabled) // || t.GameObjects == null )
+    return;
+
+    Event e = Event.current;
+    int controlID = GUIUtility.GetControlID (FocusType.Passive);
+    switch (e.GetTypeForControl (controlID)) {
+       case EventType.MouseDown:
+       GUIUtility.hotControl = controlID;
+       t.CheckForPositions(e.mousePosition);
+       // Debug.Log("WALLA:" + e);
+       // e.Use ();
+       break;
+    }
+    // if (Event.current.type == EventType.MouseUp
+    // if (Input.GetMouseButtonUp(0) ) {
+    // }
+     // if (Event.current.type == EventType.MouseUp && Event.current.button == 0) {
+     //     // AnchorTool myTarget = (AnchorTool)target;
+     // }
+     }
+}

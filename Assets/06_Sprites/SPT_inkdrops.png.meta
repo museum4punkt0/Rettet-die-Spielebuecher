@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: db7f43663af74ec47a4bca5d70fe2c15
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3630305974796372591
+    second: SPT_inkdrops_0
+  - first:
+      213: -7040756915715605870
+    second: SPT_inkdrops_1
+  - first:
+      213: -5791424713851071360
+    second: SPT_inkdrops_2
+  - first:
+      213: 5629729767296455397
+    second: SPT_inkdrops_3
+  - first:
+      213: 6864762333674051677
+    second: SPT_inkdrops_4
+  - first:
+      213: -3924527069702292017
+    second: SPT_inkdrops_5
+  - first:
+      213: 7550580492668370792
+    second: SPT_inkdrops_6
+  - first:
+      213: -5958581775475254206
+    second: SPT_inkdrops_7
+  - first:
+      213: 8492519456761065435
+    second: SPT_inkdrops_8
+  - first:
+      213: 8838398979318457514
+    second: SPT_inkdrops_9
+  - first:
+      213: 2415714721402616334
+    second: SPT_inkdrops_10
+  - first:
+      213: -3034129410041034814
+    second: SPT_inkdrops_11
+  - first:
+      213: -760476409900312974
+    second: SPT_inkdrops_12
+  - first:
+      213: 7107893604335618750
+    second: SPT_inkdrops_13
+  - first:
+      213: -3139407773761380037
+    second: SPT_inkdrops_14
+  - first:
+      213: -1033443824952702805
+    second: SPT_inkdrops_15
+  - first:
+      213: 5182966122584208791
+    second: SPT_inkdrops_16
+  - first:
+      213: 295152106217069704
+    second: SPT_inkdrops_17
+  - first:
+      213: 3248574010283199158
+    second: SPT_inkdrops_18
+  - first:
+      213: 5905446302277605532
+    second: SPT_inkdrops_19
+  - first:
+      213: -6940197807706191695
+    second: SPT_inkdrops_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPT_inkdrops_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6076
+        width: 1173
+        height: 1164
+      alignment: 9
+      pivot: {x: 0.46354344, y: 0.50787205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1f46216e9453b4bbd3392630454095
+      internalID: 3630305974796372591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_1
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 6241
+        width: 782
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aca7e689f741064fa3fb81c14256228
+      internalID: -7040756915715605870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_2
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 6627
+        width: 547
+        height: 414
+      alignment: 9
+      pivot: {x: 0.49526313, y: 0.47496673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7cceaf0718e742bf79d4db8a3cbe1
+      internalID: -5791424713851071360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 5013
+        width: 757
+        height: 847
+      alignment: 9
+      pivot: {x: 0.55133873, y: 0.35928968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5f90971103ea74e9e34a5b70db84be
+      internalID: 5629729767296455397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_4
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 4896
+        width: 1119
+        height: 1013
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5aa1e74514fa54dae51fbfb48c13e5
+      internalID: 6864762333674051677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_5
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 4875
+        width: 1173
+        height: 1381
+      alignment: 9
+      pivot: {x: 0.5618456, y: 0.5112563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3dc4b3b264e7f4ab88317ee02892a2
+      internalID: -3924527069702292017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 3953
+        width: 928
+        height: 826
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5bf34c6cad5f242b876c334265e1b5
+      internalID: 7550580492668370792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_7
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 4158
+        width: 608
+        height: 588
+      alignment: 9
+      pivot: {x: 0.4999996, y: 0.45593676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e24d44173593b04bac9f0e40e8ae756
+      internalID: -5958581775475254206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_8
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 3248
+        width: 1083
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bfb18dfb5cd2c488e2ba0799b21544
+      internalID: 8492519456761065435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_9
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 3139
+        width: 1001
+        height: 979
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3cab10b74b9554495b5e81ac549e43
+      internalID: 8838398979318457514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_10
+      rect:
+        serializedVersion: 2
+        x: 4539
+        y: 1378
+        width: 919
+        height: 1381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359ba50fa53eafb4e9b7362313b59467
+      internalID: 2415714721402616334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_11
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1808
+        width: 1359
+        height: 1349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7018e3324281e084d99dfd3c47021fb3
+      internalID: -3034129410041034814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_12
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 328
+        width: 970
+        height: 948
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3542677d089b41bf06aab94c6fdb5
+      internalID: -760476409900312974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_13
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 408
+        width: 951
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08930415e59168489b1a78dbf446979
+      internalID: 7107893604335618750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_14
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 104
+        width: 1187
+        height: 1313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079945e6c34662945b7ba9f2548e1f7d
+      internalID: -3139407773761380037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 509
+        width: 937
+        height: 803
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2334a47d0faa7c74c9ec9714319ed2a1
+      internalID: -1033443824952702805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_16
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1681
+        width: 1585
+        height: 1509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124330bd92c983d489480d275c9ae566
+      internalID: 5182966122584208791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_17
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 2123
+        width: 1034
+        height: 1045
+      alignment: 9
+      pivot: {x: 0.534986, y: 0.4203784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1218760eb93e9d64598d91d54206b6e7
+      internalID: 295152106217069704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_18
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 5483
+        width: 361
+        height: 1672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2dcf24961d4874fb0d05cdccce4109
+      internalID: 3248574010283199158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_19
+      rect:
+        serializedVersion: 2
+        x: 4521
+        y: 5646
+        width: 246
+        height: 1444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92b8653a1a44a64f8393f82750f008e
+      internalID: 5905446302277605532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPT_inkdrops_20
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 4355
+        width: 1118
+        height: 1045
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f2fa0d74e0cd94c8bce1f5014c02f8
+      internalID: -6940197807706191695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 94b9441f075af7642a2bd5b5597d124f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SPT_inkdrops_12: -760476409900312974
+      SPT_inkdrops_17: 295152106217069704
+      SPT_inkdrops_16: 5182966122584208791
+      SPT_inkdrops_2: -5791424713851071360
+      SPT_inkdrops_6: 7550580492668370792
+      SPT_inkdrops_10: 2415714721402616334
+      SPT_inkdrops_1: -7040756915715605870
+      SPT_inkdrops_11: -3034129410041034814
+      SPT_inkdrops_3: 5629729767296455397
+      SPT_inkdrops_4: 6864762333674051677
+      SPT_inkdrops_20: -6940197807706191695
+      SPT_inkdrops_18: 3248574010283199158
+      SPT_inkdrops_19: 5905446302277605532
+      SPT_inkdrops_7: -5958581775475254206
+      SPT_inkdrops_14: -3139407773761380037
+      SPT_inkdrops_5: -3924527069702292017
+      SPT_inkdrops_0: 3630305974796372591
+      SPT_inkdrops_9: 8838398979318457514
+      SPT_inkdrops_15: -1033443824952702805
+      SPT_inkdrops_8: 8492519456761065435
+      SPT_inkdrops_13: 7107893604335618750
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
